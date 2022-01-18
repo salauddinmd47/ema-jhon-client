@@ -50,7 +50,7 @@ const Shop = () => {
             <div className="search-container">
                 <input type="text" onChange={handleSearch}  placeholder='search product' />
                 <span style={{ color:'white', marginLeft:"5px" }}><FontAwesomeIcon icon={faShoppingCart}/></span>
-                <span style={{ marginLeft:'5px',color:'goldenrod',fontWeight:'500' }}>{cart.length}</span>
+                <span style={{ marginLeft:'5px',color:'goldenrod',fontWeight:'700' }}>{cart.length}</span>
             </div>
             <div className='shop-container'>
              <div className='products-container'> 
