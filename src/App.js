@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Inventory from './Components/Inventory/Inventory';
 import OrderReview from './Components/OrderReview/OrderReview';
 import NotFound from './Components/NotFound/NotFound';
+import PlaceOder from './Components/PlaceOrder/PlaceOder';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route exact path="/review">
            <OrderReview></OrderReview>
+        </Route>
+        <Route exact path="/placeOrder">
+           <PlaceOder></PlaceOder>
         </Route>
         <Route exact path="*">
            <NotFound></NotFound>
